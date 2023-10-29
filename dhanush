@@ -1,0 +1,174 @@
+<html>
+<body>
+
+<h1 style="border: 10px solid Tomato;"><!DOCTYPE html>
+<html>..........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+    <i>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Navigation Bar</title>
+	<style type="text/css">
+		*{
+			text-decoration: none;
+		}
+		.navbar{
+			background: black; font-family: calibri; padding-right: 15px;padding-left: 15px;
+		}
+		.navdiv{
+			display: flex; align-items: center; justify-content: space-between;
+		}
+		.logo a{
+			font-size: 35px; font-weight: 600; color: white;
+		}
+		li{
+			list-style: none; display: inline-block;
+		}
+		li a{
+			color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
+		}
+
+		}
+	</style>
+</head>
+<body>
+	<nav class="navbar">
+		<div class="navdiv">
+			<div class="logo"><a href="#">Banothu Dhanush</a> </div>
+			<ul>
+				<button><a href="#">SignIn</a></button>
+				<button><a href="#">SignUp</a></button>
+			</ul>
+		</div>
+	</nav>
+</body>
+</html>
+..........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<center><b><h1> who am I to tell you </h1>
+<p>I am a programer<br>
+my name is bdhanush. <br>
+i am studing in 7 class<br>
+i want to be a data scienist<br>
+I made many programs<br>
+like:-_<br>
+games<br>
+calulator<br>
+etc<br>
+</p>
+</b>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Background Color: body gbcolor</title>
+</head>
+<body bgcolor="orange">
+</body>
+</html>
+<h1>services</h1>
+<h1>List of my best programs</h1>
+    <center>
+    <h2> number guessing game<br> </h2>
+    1. import random<br>
+    2. number: int = random.randint(1, 100)<br>
+    3. guess = 0<br>
+    4. while guess != number:<br>
+    5. guess = int(input("Enter Guess: "))<br>
+    6. if (guess < number):<br>
+    7.   print("Guess higher!")<br
+    8. elif (guess > number):<br
+    9.    print("Guess lower!")<br>
+    10. else:<br>
+    11.    print("You won!")<br>
+    
+
+
+    </center> 
+        <center>
+            <h2>rock, paper game</h2><br>
+            1. import random<br>
+            2. options = ["Rock", "Paper", "Scissors"]<br>
+            3. user_choice = input("Choose Rock, Paper, or Scissors: ")<br>
+            4. computer_choice = random.choice(options)<br>
+
+            5. print("You chose: ", user_choice)<br>
+            6. print("Computer chose: ", computer_choice)<br>
+
+             7. if user_choice == computer_choice:<br>
+             8. print("tie")<br>
+
+             9. elif user_choice == "Rock" and computer_choice == "Scissors":<br>
+             10. print("You win!")<br>
+
+             11. elif user_choice == "Paper" and computer_choice == "Rock":<br>
+             12. print("You win!")<br>
+
+             13. elif user_choice == "Scissors" and computer_choice == "Paper":<br>
+             14. print("You win!")<br>
+
+
+        </center>
+
+<center>
+            <h2>calculator</h2>
+            1. # This function adds two numbers <br>
+            2. def add(x, y):<br>
+            3. return x + y<br>
+
+              4. # This function subtracts two numbers<br>
+             5. def subtract(x, y):<br>
+             6.  return x - y<br>
+
+               7. # This function multiplies two numbers<br>
+            8.def multiply(x, y):<br>
+              9. return x * y<br>
+
+            10. # This function divides two numbers<br>
+            11. def divide(x, y):<br>
+            12. return x / y<br>
+
+
+             13. print("Select operation.")<br>
+             14. print("1.Add")<br>
+             15. print("2.Subtract")<br>
+             16. print("3.Multiply")<br>
+             17. print("4.Divide")<br>
+
+             18. while True:<br>
+             19. choice = input("Enter choice(1/2/3/4): ")<br>
+             20. if choice in ('1', '2', '3', '4'):<br>
+            21. try:<br>
+            22. num1 = float(input("Enter first number: "))<br>
+            23. num2 = float(input("Enter second number: "))<br>
+            24. except ValueError:<br>
+            25. print("Invalid input. Please enter a number.")<br>
+            26. continue<br>
+
+            27. if choice == '1':<br>
+            28. print(num1, "+", num2, "=", add(num1, num2))<br>
+
+            29. elif  choice == '2':<br>
+            30. print(num1, "-", num2, "=", subtract(num1, num2))<br>
+
+            31. elif choice == '3':<br>
+            32. print(num1, "*", num2, "=", multiply(num1, num2))<br>
+
+            33. elif  choice == '4':<br>
+            34. print(num1, "/", num2, "=", divide(num1, num2))<br>
+            35.next_calculation = input("Let's do next calculation? (yes/no): ")<br>
+             36. if next_calculation == "no":<br>
+             37. break<br>
+             37. else:<br>
+          38. print("Invalid Input")<br>
+
+
+</center>
+</h1>
+</body>
+</html>
